@@ -1,27 +1,43 @@
-# Data Leakage Detection using Decision Tree & Random Forest
+# Data Leakage in Machine Learning Models
 
-This project demonstrates how data leakage can affect machine learning model performance.
+## Problem Statement
+Data leakage can lead to overly optimistic model performance and unreliable predictions. This project demonstrates how leakage occurs and its impact on model evaluation.
 
-## Objective
-Identify leakage features in a dataset and evaluate how they impact model accuracy.
+---
 
-## Models Used
-- Decision Tree
-- Random Forest
+## Objectives
+- Understand data leakage in ML pipelines  
+- Demonstrate its effect on model accuracy  
+- Learn best practices to avoid leakage  
 
-## Techniques
-- Feature Importance
-- Confusion Matrix
-- Data Leakage Detection
-- Model Retraining after removing leakage
+---
 
-## Key Insight
-The model initially achieved high accuracy because of leakage features. 
-After removing these features, accuracy decreased, proving how misleading leakage can be in machine learning models.
+## Tools Used
+- Python  
+- Scikit-learn  
+- Pandas  
 
-## Tools & Libraries
-- Python
-- Pandas
-- Scikit-learn
-- Matplotlib
-- Seaborn
+---
+
+## Approach
+- Built model with and without leakage  
+- Compared performance metrics  
+- Analyzed differences in results  
+
+---
+
+## Key Insights
+- Data leakage significantly inflates model accuracy  
+- Models fail in real-world scenarios when leakage exists  
+- Proper validation techniques are essential  
+
+---
+
+## Business Impact
+- Ensures reliable and trustworthy ML models  
+- Prevents incorrect decision-making  
+
+---
+
+## Author
+Sanman Kadam
